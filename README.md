@@ -34,9 +34,9 @@ http://localhost:5000/, or
 http://127.0.0.1:5000/
 ```
 
-References:
-https://blog.keras.io/building-a-simple-keras-deep-learning-rest-api.html
-http://flask.pocoo.org/docs/1.0/patterns/fileuploads/
-https://pymote.readthedocs.io/en/latest/install/windows_virtualenv.html
-https://getbootstrap.com/docs/3.3/getting-started/
+References:</br>
+https://blog.keras.io/building-a-simple-keras-deep-learning-rest-api.html</br>
+http://flask.pocoo.org/docs/1.0/patterns/fileuploads/</br>
+https://pymote.readthedocs.io/en/latest/install/windows_virtualenv.html</br>
+https://getbootstrap.com/docs/3.3/getting-started/</br>
 https://pythonhosted.org/Flask-Bootstrap/basic-usage.html#examples
