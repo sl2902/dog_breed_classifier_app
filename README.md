@@ -34,6 +34,11 @@ http://localhost:5000/, or
 http://127.0.0.1:5000/
 ```
 
+7) Deactivate the environment when you are done
+```
+deactivate
+```
+
 References:</br>
 https://blog.keras.io/building-a-simple-keras-deep-learning-rest-api.html</br>
 http://flask.pocoo.org/docs/1.0/patterns/fileuploads/</br>
