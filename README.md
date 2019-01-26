@@ -1,7 +1,7 @@
 # Dog breed classifier
-In this project we build an application that classifies dog breeds - 1 out of 133 different breeds; the model is built using a pretrained model as a feature extractor; these features as passed as inputs into user defined classifier and trained, and the best weights are saved. In addition to classifying the breed of a dog, if the user inputs an image of a human, it will try to classify the breed of the human, otherwise it will inform the user that the input is unclassifiable
+In this project we build an application that classifies dog breeds - 1 out of 133 different breeds; the model is built in 2 stages: 1) In stage 1, we use a pretrained model as a feature extractor. In stage2, these features as passed as inputs into user defined classifier and, trained; the best weights during training are saved. In addition to classifying the breed of a dog, if the user inputs an image of a human, it will try to classify the breed of the human, otherwise it will inform the user that the input is unclassifiable
 
-Instructions:
+## Instructions:
 1) The instructions assume you are on Windows and you have Python 3.6 installed
 
 2) Navigate to the directory you want to setup a new virtual environment in
@@ -22,7 +22,8 @@ cd dog_breed_classifier_app
 pip install requirements.txt
 ```
 
-5) Start the app locally
+5) Start the app locally, and wait for the script to load the pretrained model and user-defined model weights. You
+should see the following - `Running on http://127.0.0.1:5000/`
 ```
 python run_dog_breed_classifier.py
 ```
